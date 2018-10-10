@@ -68,7 +68,7 @@ function colorsProblem(hexColor) {
         theArray[index] = parseInt(theArray[index], 16);
     });
 
-    return `(${rgb[0]}, ${rgb[1]}, ${rgb[2]})`;
+    return '(' + r + ', ' + g + ', ' + b + ')';
 }
 
 /**
